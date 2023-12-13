@@ -1,6 +1,6 @@
-# EditExif 1.0.1
+# EditExif 1.0.2
 
-Script Linux per Terminale, semplice e veloce, che modifica i metadati delle immagini: modello fotocamera, data dello scatto, nome del software, commenti, stato del flash e tanti altri. Lo script lavora sia su una sola foto che su una intera directory. Richiede exiv2.
+Script Linux per Terminale, semplice e veloce, che modifica i metadati delle immagini: modello fotocamera, data dello scatto, nome del software, commenti, stato del flash e tanti altri. Lo script lavora sia su una sola foto che su una intera directory. Richiede il pacchetto "exiv2".
 Una lista completa dei tags modificabili si trova su: exiv2.org/tags.html
 
 Ecco lo script in esecuzione
