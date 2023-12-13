@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Edit Exif 1.0.1
+# Edit Exif 1.0.2
 # Author and copyright (C): Marcello Vitagliano
 # License: GNU General Public License
 
@@ -9,10 +9,8 @@
 
 # inserire la directory contenente le immagini (*.jpg) o la singola immagine (nomefile.jpg) 
 Path="/home/$USER/<directory>/*.jpg"
-PathD="${Path%/*}"
 
 # rimuovere/commentare i tags e i rispettivi comandi exiv2 se non devono essere utilizzati
-
 Fotocamera="Panasonic"
 Modello="Lumix GH5"
 Data="2022:04:03 14:05:30"
@@ -24,6 +22,7 @@ Commento="commento dell'autore"
 
 ################### Fine parametri da modificare ###################
 
+PathD="${Path%/*}"
 
 # conto quante immagini saranno modificate
 shopt -s nullglob;
